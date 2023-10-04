@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Text To Audio Demo',
+    description: `A simple demo showing how to search for key word, locate the matching audio and play it.`,
+    imgSrc: '/static/images/projects/text-to-audio-player.png',
+    href: 'https://text-to-audio-player.vercel.app/',
+  },
+  {
     title: 'Image Classification Demo',
     description: `A simple demo that show how to classify images using Imagga and HuggingFace.`,
     imgSrc: '/static/images/projects/image-classification.png',
