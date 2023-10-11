@@ -1,0 +1,53 @@
+---
+title: 'Unveiling Progress: The Making of the Core Feature'
+date: '2023-10-10'
+lastmod: '2023-10-10'
+tags: ['AI', 'progress', 'feature buildup']
+draft: false
+summary: 'An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more'
+bibliography: references-data.bib
+---
+
+## Recall of Ideation and User Research Stage
+
+Our journey began with a deep dive into understanding the unique needs and desires of the visually impaired community. The user research guided us towards our core feature: image recognition paired with ambient sounds.
+
+## Breaking Down the Core Feature
+
+Our core feature is comprised of three essential components:
+
+### Image Crop
+
+A part of PicTok's foundation lies in providing an interactive experience for users to explore images. When a user clicks on a specific area of a photo, PicTok will perform a series of operations. First, the selected area will be cropped behind the scenes, ensuring that the most relevant visual information is retained. Behind the scenes, we utilize advanced touch recognition techniques to ensure precise and intuitive interaction.
+
+![Image-crop-demo-screenshot](/static/images/projects/image-crop.jpg)
+
+Explore the [Image Crop demo](https://image-crop-demo-pictok.vercel.app/) here.
+
+### Image Classification
+
+Leveraging state-of-the-art technology, PicTok integrates [Imagga](https://imagga.com/) for accurate image classification. This allows us to provide meaningful descriptions for our users, enhancing their experience and engagement with the visual content.
+
+![Image-classification-demo-screenshot](/static/images/projects/image-classification.png)
+
+Try out the [Image Classification demo](https://image-classification-pictok.vercel.app/imagga?query=https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2030&q=80) here.
+
+### Text-to-Audio Sound Generator: Personalized Soundscapes
+
+Although our ideal solution involves a sophisticated text-to-sound generator powered by AI technology, we're starting with a simpler method and continues our AI research.
+
+This component enables users to input keywords, prompting the selection and playback of associated ambient sounds. The demo showcases a basic audio player equipped with a search function and a small library of local audio files. By entering a keyword in the search bar, users can experience the audio come to life in response.
+
+![Text-to-Audio-demo-screenshot](/static/images/projects/text-to-audio-player.png)
+
+Experience the [Text-to-Audio demo](https://text-to-audio-player.vercel.app/) here.
+
+## Progress towards Core Features
+
+We've made significant strides in our development journey. Each of the three integral components - image cropping, image classification, and text-to-audio sound generation - has been successfully built out. Together, these components will form the cornerstone of our core features. This progress represents a major leap towards a comprehensive visual exploration experience.
+
+## Looking Ahead
+
+While we're excited about our progress, our journey is far from over. We're eager to integrating advanced AI technologies, including a text-to-sound generator and an image-to-text generator. These enhancements will undergo further testing in each demo before being seamlessly combined into a unified core feature. This means that when a user crops an area, the image-to-text generator will produce accurate text description of that area, which will then be fed into the text-to-audio generator to create sound.
+
+Stay tuned for more updates and get ready to experience visual exploration in a whole new way with PicTok!
