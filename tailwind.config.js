@@ -25,7 +25,7 @@ module.exports = {
         sans: ['var(--font-inter)', ...fontFamily.sans],
       },
       colors: {
-        primary: colors.pink,
+        primary: colors.blue,
         gray: colors.gray,
       },
       typography: ({ theme }) => ({
