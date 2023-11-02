@@ -1,7 +1,7 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 // import Logo from '@/data/logo.svg'
-import Logo from '../public/static/images/logo.png'
+import Logo from '../public/static/images/pictok.png'
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
@@ -17,7 +17,7 @@ const Header = () => {
             <div className="mr-10 relative">
               {/* <Logo /> */}
               <Image src={Logo} alt="logo" width={50} height={50} className="" />
-              <div className="bg-white w-[28px] h-[21px] absolute top-2 left-3 -z-10"></div>
+              {/* <div className="bg-white w-[28px] h-[21px] absolute top-2 left-3 -z-10"></div> */}
             </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
               <div className="hidden h-6 text-2xl font-semibold sm:block">

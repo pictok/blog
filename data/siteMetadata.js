@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'PicTok',
   author: 'PicTok',
-  headerTitle: 'PicTok',
+  headerTitle: '',
   description: 'A blog showcasing the latest news and updates from PicTok',
   language: 'en-us',
   theme: 'system', // system, dark or light
