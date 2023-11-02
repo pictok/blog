@@ -16,7 +16,9 @@ const Header = () => {
           <div className="flex flex-col items-center justify-between">
             <div className="mr-10 relative">
               {/* <Logo /> */}
-              <Image src={Logo} alt="logo" width={50} height={50} className="" />
+              <p className="absolute pt-12 text-lg font-extrabold 	font-sans">PicTok</p>
+              <Image src={Logo} alt="logo" width={50} height={50} className="ml-9" />
+
               {/* <div className="bg-white w-[28px] h-[21px] absolute top-2 left-3 -z-10"></div> */}
             </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
