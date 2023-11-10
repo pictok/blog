@@ -25,7 +25,12 @@ module.exports = {
         sans: ['var(--font-inter)', ...fontFamily.sans],
       },
       colors: {
-        primary: colors.blue,
+        primary: {
+          400: 'var(--primary-hover)',
+          500: 'var(--primary)',
+          600: 'var(--primary-hover)',
+          DEFAULT: 'var(--primary)',
+        },
         gray: colors.gray,
       },
       typography: ({ theme }) => ({
@@ -55,9 +60,9 @@ module.exports = {
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
-                color: `${theme('colors.primary.400')}`,
+                color: `${theme('colors.primary.600')}`,
               },
-              code: { color: theme('colors.primary.400') },
+              code: { color: theme('colors.primary.600') },
             },
             'h1,h2,h3,h4,h5,h6': {
               color: theme('colors.gray.100'),
