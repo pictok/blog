@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  :root {
+    --primary: #199dfc;
+    --primary-hover: #69baf3;
+  }
+  .dark {
+    --primary: #fdcc4d;
+    --primary-hover: #fde68a;
+  }
+}
 
 .task-list-item::before {
   @apply hidden;
