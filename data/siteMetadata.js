@@ -3,13 +3,14 @@ const siteMetadata = {
   title: 'PicTok',
   author: 'PicTok',
   headerTitle: '',
-  description: 'A blog showcasing the latest news and updates from PicTok',
+  description:
+    'PicTok is a photo-sharing app tailored for visually impaired young adults. Our AI-driven technology not only recognizes objects in pictures but also transforms them into audio, enhancing the photo-sharing experience and making it more inclusive.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://pictok-blog.vercel.app/',
   siteRepo: 'https://github.com/pictok/blog',
   siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/avatar-light.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'contact.pictok.ai@gmail.com',
   github: 'https://github.com/pictok/',
